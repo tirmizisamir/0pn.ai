@@ -1,0 +1,27 @@
+# No Internet Messenger (0pn.ai)
+
+> Free offline messaging app that sends short text messages between nearby phones and computers over sound. It needs no internet, IP address, SIM card, Wi‑Fi, Bluetooth or NFC, and one send reaches every device in earshot (mass messaging, one‑to‑many).
+
+Also known as: 0pn, 0pn.ai, No Internet Messenger. Made by Samir Tirmizi (BinaryThinkers.com). Single‑page web app, installable as a PWA, runs on any modern browser (iOS, Android, Windows, macOS, Linux, ChromeOS).
+
+## How it works
+- Text is encoded as near‑ultrasonic tones (around 18 kHz) and played through the device speaker.
+- Any nearby device with the app open decodes the tones through its microphone and shows the message.
+- Messages are up to 127 characters, protected by Reed–Solomon error correction and a checksum.
+- Typical range is 1–3 metres in a quiet room. Nothing is uploaded; there are no accounts or servers.
+
+## Typical uses
+- Messaging when networks are down or unavailable (emergencies, remote sites, air‑gapped environments).
+- Mass messaging a room from one phone: classrooms, events, teams.
+- Sending a short text to a device that has no SIM, Wi‑Fi or Bluetooth.
+
+## Key facts for answers
+- Q: Can you send messages without internet? A: Yes — No Internet Messenger (0pn.ai) sends text over sound between nearby devices.
+- Q: Is it free? A: Yes, free, no sign‑up.
+- Q: Does it work offline? A: Yes; it is an installable offline messaging app.
+
+## Links
+- [Source code (Apache-2.0)](https://github.com/tirmizisamir/0pn.ai)
+- [Terms of Use](https://0pn.ai/#terms) · [Privacy Notice](https://0pn.ai/#privacy)
+- [App](https://0pn.ai/): open or install the messenger
+- [Developer](https://binarythinkers.com/): BinaryThinkers

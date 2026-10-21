@@ -1,0 +1,17 @@
+bin/
+obj/
+publish/
+.vs/
+.idea/
+*.user
+.DS_Store
+_data/
+
+# Old reference material: local only
+__Resources/
+
+# Server-only verification/SSL files: never in Git, never published
+.well-known/
+
+# deploy credentials: local only
+.deploy.env

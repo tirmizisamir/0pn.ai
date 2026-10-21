@@ -1,0 +1,6 @@
+# Normalize line endings (files are edited from both macOS and Windows)
+* text=auto
+*.sln text eol=crlf
+*.slnx text eol=crlf
+*.png binary
+*.ico binary
