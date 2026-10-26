@@ -4,7 +4,9 @@
 
 Live app: **https://0pn.ai** — open it on two nearby devices and start messaging. Free, no sign-up, installable as an app on phones and computers.
 
-![No Internet Messenger](og-image.png)
+[![Watch the demo: two phones in Airplane mode messaging each other](media/demo-poster.png)](media/demo.mp4)
+
+**▶ [Watch the 2-minute demo](media/demo.mp4)** — two phones in Airplane mode, no SIM, no Wi‑Fi, no Bluetooth, messaging each other.
 
 ## Features
 
@@ -32,6 +34,7 @@ Then open the URL on two devices placed near each other.
 | `manifest.json`, `sw.js`, `icons/` | PWA install and offline use |
 | `web.config` | IIS settings (MIME types, caching, HTTPS redirect); ignore on other servers |
 | `robots.txt`, `sitemap.xml`, `llms.txt`, `og-image.png`, `screenshot-mobile.png` | discovery and link previews |
+| `media/` | demo video and poster for this README (not uploaded to the website) |
 
 ## Contributing
 
