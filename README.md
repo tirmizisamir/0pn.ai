@@ -5,7 +5,8 @@
 Live app: **https://0pn.ai** — open it on two nearby devices and start messaging. Free, no sign-up, installable as an app on phones and computers.
 
 https://github.com/user-attachments/assets/e6955f17-35fb-4e5b-8ef3-2414dcd56790
-   Two phones in Airplane mode — no SIM, no Wi‑Fi, no Bluetooth — messaging each other.
+
+Two phones in Airplane mode — no SIM, no Wi‑Fi, no Bluetooth — messaging each other.
 
 ## Features
 
