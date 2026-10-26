@@ -34,7 +34,6 @@ Then open the URL on two devices placed near each other.
 | `manifest.json`, `sw.js`, `icons/` | PWA install and offline use |
 | `web.config` | IIS settings (MIME types, caching, HTTPS redirect); ignore on other servers |
 | `robots.txt`, `sitemap.xml`, `llms.txt`, `og-image.png`, `screenshot-mobile.png` | discovery and link previews |
-| `media/` | demo video and poster for this README (not uploaded to the website) |
 
 ## Contributing
 

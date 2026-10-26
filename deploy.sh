@@ -29,8 +29,8 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 # 1. Bump the service-worker cache name so installed apps fetch the new files.
 if grep -qE '0pn-v[0-9]+' sw.js; then
-  CUR=$(grep -oE '0pn-v[0-9]+' sw.js | head -1 | tr -dc '0-9')
-  NEXT=$((CUR+1))
+  CUR=$(grep -oE '0pn-v[0-9]+' sw.js | head -1 | sed 's|.*-v||')
+  NEXT=$((10#$CUR+1))
   sed -i '' -E "s/0pn-v[0-9]+/0pn-v${NEXT}/" sw.js
   echo "service worker cache: 0pn-v${CUR} -> 0pn-v${NEXT}"
 fi
