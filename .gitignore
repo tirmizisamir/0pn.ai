@@ -7,8 +7,13 @@ publish/
 .DS_Store
 _data/
 
-# Old reference material: local only
+# Old reference material / backups: local only, never in Git
+_Resource/
+_Resources/
+__Resource/
 __Resources/
+*Resource*/
+_backup*/
 
 # Server-only verification/SSL files: never in Git, never published
 .well-known/

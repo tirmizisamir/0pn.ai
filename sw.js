@@ -1,4 +1,4 @@
-var CACHE="0pn-v10",ASSETS=["./","./index.html","./manifest.json","./icons/icon.svg","./icons/favicon-32.png","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png","./icons/apple-touch-icon.png","./og-image.png"];
+var CACHE="0pn-v9",ASSETS=["./","./index.html","./manifest.json","./icons/icon.svg","./icons/favicon-32.png","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png","./icons/apple-touch-icon.png","./og-image.png"];
 self.addEventListener("install",function(e){e.waitUntil(caches.open(CACHE).then(function(c){return c.addAll(ASSETS)}).then(function(){return self.skipWaiting()}))});
 self.addEventListener("activate",function(e){e.waitUntil(caches.keys().then(function(k){return Promise.all(k.filter(function(x){return x!==CACHE}).map(function(x){return caches.delete(x)}))}).then(function(){return self.clients.claim()}))});
 /* network first (so updates land), cache fallback (so it works offline) */
